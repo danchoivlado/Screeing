@@ -17,6 +17,10 @@ public class Screening {
         seats.add(seat);
     }
 
+    public List<Seat> getSeats() {
+        return this.seats;
+    }
+
     public String getMovie() {
         return this.movie;
     }
